@@ -7,3 +7,14 @@ for i in a :
     if(i < x) : 
         print(i, end = " ") # 줄바꿈 없이
 
+
+
+
+
+
+
+
+
+
+
+
