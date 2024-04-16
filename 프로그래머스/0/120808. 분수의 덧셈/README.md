@@ -2,6 +2,8 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120808) 
 
+### import math -> math.gcd : 최대공약수 구하기
+
 ### 성능 요약
 
 메모리: 10.1 MB, 시간: 0.01 ms
