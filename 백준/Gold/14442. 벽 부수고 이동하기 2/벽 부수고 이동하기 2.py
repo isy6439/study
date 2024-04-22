@@ -26,7 +26,7 @@ def bfs(x, y) :
                         visited[nx][ny][broken] = 1
                         queue.append((nx, ny, broken, dist + 1))
 
-                    elif ground[nx][ny] == 1 and visited[nx][ny][broken-1] == 0 : 
+                    elif ground[nx][ny] == 1: 
                         if broken < K : 
                             visited[nx][ny][broken] = 1
                             queue.append((nx, ny, broken + 1, dist + 1))
